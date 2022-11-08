@@ -7,17 +7,13 @@ email: sal@hotmail.com
 password: password12345
  
 ## Description
-This application allows various different users to create an account and post blog posts. Users can also edit and delete their own posts. It also allows them to comment on posts from other users.
+This application was created using MSQL2, Sequalize, Express and handlebars for the front end, along with BootStrap for the CSS
 
 ## Installation
-To use this app npm init has to be called to create your package.json file.
-The following necessary Npm dependencies must be installed to run the application properly: the needed dependencies will be found on the package.json file.
-To properly install the database you must install MySQL on your computer, create an profile in which you have a root and a password.
-In your command line you must type mysql -u root -p and then enter, type your password that you created on MySQL on the following line.
-To finally add the database you must do the following: source db/schema.sql then enter.
-Run "npm run seeds" on command line
-Run "npm start" for the port to start listening.
-If on Heroku, all you have to do is login.
+Clone this app to your local repo
+npm install all the packages using NPM install
+Run mysql -u root -p
+run node server.js
 
 ## mockup
 
